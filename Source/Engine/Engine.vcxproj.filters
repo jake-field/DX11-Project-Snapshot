@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{458c86ca-ee81-4b13-8aca-303bebab4f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{34782742-0684-4de7-b4e8-eafcda1d22f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Rendering">
+      <UniqueIdentifier>{51c6ea89-50b1-46f6-abb6-e50f75823c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Rendering">
+      <UniqueIdentifier>{abe092c3-0758-442d-86fd-6ad22981fda0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Game Objects">
+      <UniqueIdentifier>{57ba90f4-f537-411b-9aa3-2f056271f87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Game Objects">
+      <UniqueIdentifier>{7f3e6482-5a52-4785-9cef-325bff25d8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Input">
+      <UniqueIdentifier>{3d30b78a-d959-478a-92f8-c01f5d144f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Input">
+      <UniqueIdentifier>{b3b9a15a-1013-438c-acfe-8a72fde0c055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Filesystem">
+      <UniqueIdentifier>{79986e41-d6c1-4ab2-9420-b1726af665e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Filesystem">
+      <UniqueIdentifier>{1ee86e74-d435-4df8-bbc6-e354f9308c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Game Objects\3D">
+      <UniqueIdentifier>{cff2724f-c00b-4a37-b797-2e592a644b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Game Objects\3D">
+      <UniqueIdentifier>{0a6d4a23-b627-4b03-903c-7ac950ae28d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Rendering\Shaders">
+      <UniqueIdentifier>{3308bbfa-ca7d-46a2-968a-d2f8c1af1f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Rendering\Shaders">
+      <UniqueIdentifier>{19059535-0160-4428-9618-6d8c9f24d42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Rendering\Shaders\HLSL">
+      <UniqueIdentifier>{ae7ed149-8935-4891-92b8-48b721bc31c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Asset Systems">
+      <UniqueIdentifier>{fa8b6613-b53a-4479-ae81-a87196b9a0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Asset Systems">
+      <UniqueIdentifier>{ca5b8e86-cf01-420c-9dad-6c26487c5b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Logging">
+      <UniqueIdentifier>{723bfe8e-edbf-4f2d-9780-f8e4ea4b8aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Logging">
+      <UniqueIdentifier>{48d31154-d4b8-4b3a-bd59-3f9fc3554fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Events">
+      <UniqueIdentifier>{eb0c2dd7-fa30-4fe3-9c57-2b1a425c2821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Events">
+      <UniqueIdentifier>{b952c690-0439-416c-9f3b-36fd46dd6e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Rendering\Default States">
+      <UniqueIdentifier>{90854f20-fc09-442b-b933-43170f0c258b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Asset Systems\Skeletal">
+      <UniqueIdentifier>{be17824f-287e-4c54-90cf-108b91894754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Asset Systems\Skeletal">
+      <UniqueIdentifier>{5dc67d09-97f3-4bfb-b147-83875a7e636d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls">
+      <UniqueIdentifier>{223ff760-9d48-4fef-8231-c935550cbf6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files\Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="xinputcontroller.cpp">
+      <Filter>Source Files\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="inputmanager.cpp">
+      <Filter>Source Files\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\Framework\Asset Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlparser.cpp">
+      <Filter>Source Files\Framework\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="staticmesh.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="followcamera.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="logmanager.cpp">
+      <Filter>Source Files\Framework\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="logdebug.cpp">
+      <Filter>Source Files\Framework\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="logfile.cpp">
+      <Filter>Source Files\Framework\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="entity3d.cpp">
+      <Filter>Source Files\Framework\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11shader.cpp">
+      <Filter>Source Files\Framework\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="defaultshader.cpp">
+      <Filter>Source Files\Framework\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\Framework\Asset Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="assetmanager.cpp">
+      <Filter>Source Files\Framework\Asset Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="debugshader.cpp">
+      <Filter>Source Files\Framework\Rendering\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="staticmeshinstancer.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="consolewindow.cpp">
+      <Filter>Source Files\Framework\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="inputevent.cpp">
+      <Filter>Source Files\Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="freecamera.cpp">
+      <Filter>Source Files\Framework\Game Objects\3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="dxcommon.h">
+      <Filter>Header Files\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="inputmanager.h">
+      <Filter>Header Files\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="xinputcontroller.h">
+      <Filter>Header Files\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ientity.h">
+      <Filter>Header Files\Framework\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexdefs.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.hpp">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="layeredstack.hpp">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="windowcreation.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imesh.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="staticmesh.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="followcamera.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dxfloatex.h">
+      <Filter>Header Files\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="logmanager.h">
+      <Filter>Header Files\Framework\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="ilogtarget.h">
+      <Filter>Header Files\Framework\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="logdebug.h">
+      <Filter>Header Files\Framework\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="logfile.h">
+      <Filter>Header Files\Framework\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="entity3d.h">
+      <Filter>Header Files\Framework\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gametemplate.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11shader.h">
+      <Filter>Header Files\Framework\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ishader.h">
+      <Filter>Header Files\Framework\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="defaultshader.h">
+      <Filter>Header Files\Framework\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="wichelper.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="assetmanager.hpp">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="asset.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="debugshader.h">
+      <Filter>Header Files\Framework\Rendering\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="instancepool.hpp">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="iinstancepool.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="staticmeshinstancer.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="numrange.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="consolewindow.h">
+      <Filter>Header Files\Framework\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlparser.h">
+      <Filter>Header Files\Framework\Filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="inputevent.h">
+      <Filter>Header Files\Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="eventemitter.hpp">
+      <Filter>Header Files\Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="blendstates.h">
+      <Filter>Header Files\Framework\Rendering\Default States</Filter>
+    </ClInclude>
+    <ClInclude Include="rasterstates.h">
+      <Filter>Header Files\Framework\Rendering\Default States</Filter>
+    </ClInclude>
+    <ClInclude Include="samplerstates.h">
+      <Filter>Header Files\Framework\Rendering\Default States</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderglobals.h">
+      <Filter>Header Files\Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\Framework\Asset Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="armature.h">
+      <Filter>Header Files\Framework\Asset Systems\Skeletal</Filter>
+    </ClInclude>
+    <ClInclude Include="freecamera.h">
+      <Filter>Header Files\Framework\Game Objects\3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="debug_vs.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="debug_ps.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p1_vsrigged.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p0_vs.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p0_vsinstance.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p1_vs.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p1_vsinstance.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL\Pass Compile Decls</Filter>
+    </FxCompile>
+    <FxCompile Include="default_p1_ps.hlsl">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="global.hlsli">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </None>
+    <None Include="default_shared.hlsli">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </None>
+    <None Include="default_vs.hlsli">
+      <Filter>Source Files\Framework\Rendering\Shaders\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
